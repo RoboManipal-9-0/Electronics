@@ -173,6 +173,10 @@
 <text x="50.165" y="20.32" size="1.016" layer="25" rot="R90">GND</text>
 <text x="50.165" y="23.495" size="1.016" layer="25" rot="R90">TX</text>
 <text x="50.165" y="26.035" size="1.016" layer="25" rot="R90">RX</text>
+<hole x="-3.81" y="39.37" drill="2.99999375"/>
+<hole x="-3.81" y="1.27" drill="2.99999375"/>
+<hole x="58.42" y="1.27" drill="2.99999375"/>
+<hole x="58.42" y="39.37" drill="2.99999375"/>
 </plain>
 <libraries>
 <library name="ic-package">
@@ -652,7 +656,7 @@ design rules under a new name.</description>
 <contactref element="LSA1" pad="9"/>
 <contactref element="LSA2" pad="9"/>
 <contactref element="X1" pad="1@1"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.3048">
 <vertex x="-7.62" y="43.18"/>
 <vertex x="-7.62" y="-2.54"/>
 <vertex x="62.23" y="-2.54"/>
@@ -851,6 +855,12 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="5,16,0016fd3596e11f38"/>
+<approved hash="5,16,1c4ed9a0374c9f38"/>
+<approved hash="5,1,0016fd3596e11f38"/>
+<approved hash="5,1,1c4ed9a0374c9f38"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
