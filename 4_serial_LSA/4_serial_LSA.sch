@@ -2446,59 +2446,135 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </deviceset>
 </devicesets>
 </library>
-<library name="DC_LOAD_AU" urn="urn:adsk.eagle:library:220454">
-<description>Generated from &lt;b&gt;DC_LOAD_AU.sch&lt;/b&gt;&lt;p&gt;
-by exp-lbrs-replace2.ulp</description>
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="ED555/2DS" urn="urn:adsk.eagle:footprint:220466/1" library_version="16">
-<wire x1="3.5" y1="-2.7" x2="3.5" y2="3.8" width="0.127" layer="21"/>
-<wire x1="3.5" y1="3.8" x2="-3.5" y2="3.8" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="3.8" x2="-3.5" y2="-2.7" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-2.7" x2="3.5" y2="-2.7" width="0.127" layer="21"/>
-<pad name="1" x="-1.75" y="0" drill="1.1"/>
-<pad name="2" x="1.75" y="0" drill="1.1"/>
-<text x="-3.5" y="4.29" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3.5" y="-5.25" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<package name="43160-XX02" library_version="2">
+<description>&lt;b&gt;7.50mm Pitch Sabre™ Header, Right Angle, 2 Circuits, Glow Wire Capable, PCB Thickness 3.20mm, with Board Lock&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/431607302_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-10.445" y1="-1.325" x2="10.445" y2="-1.325" width="0.2032" layer="21"/>
+<wire x1="-10.445" y1="-15.885" x2="-10.445" y2="-1.325" width="0.2032" layer="21"/>
+<wire x1="-10.445" y1="-15.885" x2="10.445" y2="-15.885" width="0.2032" layer="21"/>
+<wire x1="10.445" y1="-1.325" x2="10.445" y2="-15.885" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-15.8" x2="-1.4" y2="-12.325" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-12.325" x2="1.4" y2="-12.325" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-12.325" x2="1.4" y2="-15.85" width="0.2032" layer="21"/>
+<wire x1="-3.745" y1="3.745" x2="-3.745" y2="-1.1" width="0.6" layer="51"/>
+<wire x1="3.745" y1="3.745" x2="3.745" y2="-1.1" width="0.6" layer="51"/>
+<pad name="1@1" x="-3.745" y="0" drill="1.8" diameter="3"/>
+<pad name="2@1" x="3.745" y="0" drill="1.8" diameter="3"/>
+<pad name="1@2" x="-3.745" y="3.18" drill="1.8" diameter="3"/>
+<pad name="2@2" x="3.745" y="3.18" drill="1.8" diameter="3"/>
+<pad name="M1" x="-8.495" y="-13.13" drill="3" diameter="3.4"/>
+<pad name="M2" x="8.495" y="-13.13" drill="3" diameter="3.4"/>
+<text x="-7.39" y="-17.605" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.49" y="-7.49" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="ED555/2DS" urn="urn:adsk.eagle:package:220531/3" type="model" library_version="16">
-<packageinstances>
-<packageinstance name="ED555/2DS"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="TERM_BLOCK" urn="urn:adsk.eagle:symbol:220465/1" library_version="16">
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="2" x="10.16" y="2.54" length="middle" rot="R180"/>
-<text x="-2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="MV2" library_version="2">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S@2" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S@1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M2" library_version="2">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S@2" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S@1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ED555/2DS" urn="urn:adsk.eagle:component:220583/4" prefix="J" library_version="16">
-<description>2-Pin Terminal Block&lt;br&gt;
-3.5mm pitch&lt;br&gt;
-6A</description>
+<deviceset name="43160-*02" prefix="X" library_version="2">
+<description>&lt;b&gt;SDA-43160 Connector&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com/pdm_docs/sd/431601306_sd.pdf</description>
 <gates>
-<gate name="G$1" symbol="TERM_BLOCK" x="0" y="0"/>
+<gate name="-1" symbol="MV2" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M2" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
 </gates>
 <devices>
-<device name="" package="ED555/2DS">
+<device name="" package="43160-XX02">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="-1" pin="S@1" pad="1@1"/>
+<connect gate="-1" pin="S@2" pad="1@2"/>
+<connect gate="-2" pin="S@1" pad="2@1"/>
+<connect gate="-2" pin="S@2" pad="2@2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:220531/3"/>
-</package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="11">
+<attribute name="MF" value="WALDOM/MOLEX" constant="no"/>
+<attribute name="MPN" value="43160-1102" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="54H0255" constant="no"/>
+</technology>
+<technology name="12">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="13">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="43160-1302" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="92M1480" constant="no"/>
+</technology>
+<technology name="14">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="31">
+<attribute name="MF" value="WALDOM/MOLEX" constant="no"/>
+<attribute name="MPN" value="43160-3102" constant="no"/>
+<attribute name="OC_FARNELL" value="3293038" constant="no"/>
+<attribute name="OC_NEWARK" value="54H0264" constant="no"/>
+</technology>
+<technology name="32">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="51">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="43160-5102" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="92M1493" constant="no"/>
+</technology>
+<technology name="52">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="53">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="43160-5302" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="92M1498" constant="no"/>
+</technology>
+<technology name="54">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="73">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="43160-7302" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="92M1507" constant="no"/>
+</technology>
+<technology name="74">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2525,7 +2601,7 @@ by exp-lbrs-replace2.ulp</description>
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="J6" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH"/>
-<part name="J1" library="DC_LOAD_AU" library_urn="urn:adsk.eagle:library:220454" deviceset="ED555/2DS" device="" package3d_urn="urn:adsk.eagle:package:220531/3"/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="43160-*02" device="" technology="31"/>
 </parts>
 <sheets>
 <sheet>
@@ -2560,9 +2636,12 @@ by exp-lbrs-replace2.ulp</description>
 <attribute name="VALUE" x="134.62" y="7.62" size="1.778" layer="96"/>
 <attribute name="NAME" x="134.62" y="28.702" size="1.778" layer="95"/>
 </instance>
-<instance part="J1" gate="G$1" x="78.74" y="22.86" rot="R180">
-<attribute name="NAME" x="81.28" y="30.48" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="81.28" y="33.02" size="1.778" layer="96" rot="R180"/>
+<instance part="X1" gate="-1" x="71.12" y="12.7">
+<attribute name="NAME" x="73.66" y="11.938" size="1.524" layer="95"/>
+<attribute name="VALUE" x="70.358" y="14.097" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-2" x="71.12" y="10.16">
+<attribute name="NAME" x="73.66" y="9.398" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -2639,9 +2718,9 @@ by exp-lbrs-replace2.ulp</description>
 <label x="119.38" y="30.48" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
-<label x="66.04" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="X1" gate="-2" pin="S@1"/>
+<wire x1="66.04" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<label x="63.5" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -2649,11 +2728,6 @@ by exp-lbrs-replace2.ulp</description>
 <pinref part="LSA3" gate="G$1" pin="9"/>
 <label x="119.38" y="66.04" size="1.778" layer="95" rot="R90" xref="yes"/>
 <wire x1="119.38" y1="63.5" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
-<label x="66.04" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LSA4" gate="G$1" pin="9"/>
@@ -2669,6 +2743,11 @@ by exp-lbrs-replace2.ulp</description>
 <pinref part="LSA2" gate="G$1" pin="9"/>
 <wire x1="88.9" y1="63.5" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
 <label x="88.9" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-1" pin="S@1"/>
+<wire x1="66.04" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
+<label x="63.5" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -2854,16 +2933,6 @@ by exp-lbrs-replace2.ulp</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
