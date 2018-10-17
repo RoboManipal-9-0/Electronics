@@ -859,8 +859,6 @@ diameter 1.8 mm, horizontal, grid 7.62 mm</description>
 <wire x1="63.5" y1="25.4" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="48.26" y="22.86"/>
-<wire x1="63.5" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
-<junction x="63.5" y="22.86"/>
 </segment>
 </net>
 <net name="N$2" class="0">
